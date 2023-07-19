@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from './navbar.module.css'
+import Button from '../button/Button';
 "use clients"
 
 const links = [
@@ -46,13 +47,7 @@ const Navbar = () => {
             {link.title}
           </Link>
         ))}
-        <button className={styles.logout}
-          // onClick={() => {
-          //   console.log("Logged Out");
-          // }}
-        >
-          Logout
-        </button>
+        <Button url="/" text="Log Out" />
       </div>
     </div>
   )
