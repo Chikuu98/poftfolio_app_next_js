@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './page.module.css'
 import Image from "next/image";
-import Whale from '../../../public/whale.png'
+import Whale from '../../../public/whale.png';
 import Button from "@/components/button/Button";
 
 const About = () => {
